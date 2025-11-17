@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Stuff to Remember</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="file:///Users/lesliecanela/Downloads/Coding%20Projects/Stuff%20to%20Remember/assets/right-pushpin.png"
+    />
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="main-section">
+      <section id="top-section">
+        <section id="title-section">
+          <div id="left-side-title-div">
+            <img src="assets/left-pushpin.png" alt="Push Pin" />
+          </div>
+          <div id="middle-side-title-div">
+            <span id="title">Stuff to Remember</span>
+          </div>
+          <div id="right-side-title-div">
+            <img src="assets/right-pushpin.png" alt="Push Pin" />
+          </div>
+        </section>
+      </section>
+      <section id="bottom-section">
+        <section id="search-results-section">
+          <div id="form-div">
+            <input
+              type="text"
+              class="input-item"
+              name="input-box"
+              id="myInput"
+              placeholder="Add Task"
+            />
+          </div>
+          <div id="button-div">
+            <button onclick="newElement()" id="input-button">+</button>
+          </div>
+          <!-- NEED THE CONTAINER FOR THE TODO LIST -->
+          <div id="results-container">
+            <ul id="myUL"></ul>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
